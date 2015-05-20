@@ -9,7 +9,7 @@ game.TitleScreen = me.ScreenObject.extend({
          me.game.world.addChild(new (me.Renderable.extend({
             init: function(){
                     this._super(me.Renderable, 'init', [270, 240, 300, 50]);
-                    this.font = new me.Font("Comic", 46, "white");
+                    this.font = new me.Font("Comic", 46, "orange");
                     me.input.registerPointerEvent('pointerdown', this, this.newGame.bind(this), true)
             },
             

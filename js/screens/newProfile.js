@@ -19,7 +19,7 @@ game.NewProfile = me.ScreenObject.extend({
 
                 this._super(me.Renderable, 'init', [10, 10, 300, 50]);
 
-                this.font = new me.Font("Comic", 26, "yellow");
+                this.font = new me.Font("Comic", 26, "orange");
             },
             draw: function(renderer) {
                 this.font.draw(renderer.getContext(), "Pick A Username Or Password", this.pos.x, this.pos.y);
